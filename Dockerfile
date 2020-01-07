@@ -4,4 +4,4 @@ RUN apk add --update --no-cache \
     openssh \
     git \
     ansible-lint \
-    && pip3 install docker
+    && pip3 install docker dnspython
